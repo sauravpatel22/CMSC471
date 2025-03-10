@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicago 9 Districts Map</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Chicago Crime Map By Police District</h1>
+
+    <div class="container">
+        <!-- Dropdown container -->
+        <div class="dropdown-container">
+            <label for="settingDropdown">Select Setting:</label>
+            <select id="settingDropdown" class="variable"></select>
+        </div>
+
+        <!-- Map container -->
+        <div class="map-container">
+            <svg id="map" width="800" height="600"></svg>
+        </div>
+    </div>
+
+    <div class="tooltip"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
